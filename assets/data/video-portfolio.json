@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "title": "Danh sách video portfolio",
+  "language": "vi",
+  "total_videos": 21,
+  "categories": [
+    {
+      "name": "Phim Doanh Nghiệp",
+      "slug": "phim-doanh-nghiep",
+      "videos": [
+        { "youtube_id": "uoMRjj4aIe4", "url": "https://www.youtube.com/watch?v=uoMRjj4aIe4" },
+        { "youtube_id": "ITdxhlvfwUw", "url": "https://www.youtube.com/watch?v=ITdxhlvfwUw" },
+        { "youtube_id": "SBzRm8ycm6U", "url": "https://www.youtube.com/watch?v=SBzRm8ycm6U" },
+        { "youtube_id": "3nX4647znJo", "url": "https://www.youtube.com/watch?v=3nX4647znJo" },
+        { "youtube_id": "HOMK825IsFs", "url": "https://www.youtube.com/watch?v=HOMK825IsFs" },
+        { "youtube_id": "wvjisQdyhYE", "url": "https://www.youtube.com/watch?v=wvjisQdyhYE" }
+      ]
+    },
+    {
+      "name": "TVC",
+      "slug": "tvc",
+      "videos": [
+        { "youtube_id": "6Kq0bvyxzfQ", "url": "https://www.youtube.com/watch?v=6Kq0bvyxzfQ" },
+        { "youtube_id": "ZBd5uxPBsl0", "url": "https://www.youtube.com/watch?v=ZBd5uxPBsl0" },
+        { "youtube_id": "kjhLSh2iprM", "url": "https://www.youtube.com/watch?v=kjhLSh2iprM" },
+        { "youtube_id": "RvOtbvbA2jI", "url": "https://www.youtube.com/watch?v=RvOtbvbA2jI" }
+      ]
+    },
+    {
+      "name": "Music Video",
+      "slug": "music-video",
+      "videos": [
+        { "youtube_id": "GaHInixgVRE", "url": "https://www.youtube.com/watch?v=GaHInixgVRE" },
+        { "youtube_id": "62AzAswY5-E", "url": "https://www.youtube.com/watch?v=62AzAswY5-E" },
+        { "youtube_id": "t_7uZ_QVHlU", "url": "https://www.youtube.com/watch?v=t_7uZ_QVHlU" },
+        { "youtube_id": "RKe3zgOx2GQ", "url": "https://www.youtube.com/watch?v=RKe3zgOx2GQ" }
+      ]
+    },
+    {
+      "name": "Commercial Video",
+      "slug": "commercial-video",
+      "videos": [
+        { "youtube_id": "ztIP7OvNLjw", "url": "https://www.youtube.com/watch?v=ztIP7OvNLjw" },
+        { "youtube_id": "zrM6K1iJshI", "url": "https://www.youtube.com/watch?v=zrM6K1iJshI" },
+        { "youtube_id": "Vr4JJJ_Low4", "url": "https://www.youtube.com/watch?v=Vr4JJJ_Low4" },
+        { "youtube_id": "KPsy-Zieg5k", "url": "https://www.youtube.com/watch?v=KPsy-Zieg5k" },
+        { "youtube_id": "_da0BfX4-dw", "url": "https://www.youtube.com/watch?v=_da0BfX4-dw" },
+        { "youtube_id": "BGAKX9PFcS4", "url": "https://www.youtube.com/watch?v=BGAKX9PFcS4" }
+      ]
+    },
+    {
+      "name": "Event",
+      "slug": "event",
+      "videos": [
+        { "youtube_id": "qu6dIMIvNTA", "url": "https://www.youtube.com/watch?v=qu6dIMIvNTA" }
+      ]
+    }
+  ]
+}
