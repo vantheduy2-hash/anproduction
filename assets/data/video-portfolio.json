@@ -8,52 +8,242 @@
       "name": "Phim Doanh Nghiệp",
       "slug": "phim-doanh-nghiep",
       "videos": [
-        { "youtube_id": "uoMRjj4aIe4", "url": "https://www.youtube.com/watch?v=uoMRjj4aIe4" },
-        { "youtube_id": "ITdxhlvfwUw", "url": "https://www.youtube.com/watch?v=ITdxhlvfwUw" },
-        { "youtube_id": "SBzRm8ycm6U", "url": "https://www.youtube.com/watch?v=SBzRm8ycm6U" },
-        { "youtube_id": "3nX4647znJo", "url": "https://www.youtube.com/watch?v=3nX4647znJo" },
-        { "youtube_id": "HOMK825IsFs", "url": "https://www.youtube.com/watch?v=HOMK825IsFs" },
-        { "youtube_id": "wvjisQdyhYE", "url": "https://www.youtube.com/watch?v=wvjisQdyhYE" }
+        {
+          "youtube_id": "uoMRjj4aIe4",
+          "url": "https://www.youtube.com/watch?v=uoMRjj4aIe4",
+          "title": "TVC Nhà máy Nhôm Rolan",
+          "client": "Nhà máy Nhôm Rolan",
+          "description_excerpt": "Contact : 0962953132 Gmail: caodatss@gmail.com",
+          "thumbnail": "https://i.ytimg.com/vi/uoMRjj4aIe4/hqdefault.jpg",
+          "author": "A.N Production Việt Nam",
+          "metadata_synced_at": "2026-07-13T16:02:13.392Z"
+        },
+        {
+          "youtube_id": "ITdxhlvfwUw",
+          "url": "https://www.youtube.com/watch?v=ITdxhlvfwUw",
+          "title": "CMC TS Refuture - Phim doanh nghiệp",
+          "client": "CMC TS Refuture",
+          "description_excerpt": "Một sản phẩm được CMC TS lựa chọn Đạt Cao làm đơn vị sản xuất hình ảnh. ------------ 🌐 Our Services: Event TVC | Brand TVC | Viral Video | Music Video | Fashion Video | Wedding Film 📳 Mobile: 0962953132 ✉️ Mail: caodatss@gmail.com",
+          "thumbnail": "https://i.ytimg.com/vi/ITdxhlvfwUw/hqdefault.jpg",
+          "author": "A.N Production Việt Nam",
+          "metadata_synced_at": "2026-07-13T16:02:13.646Z"
+        },
+        {
+          "youtube_id": "SBzRm8ycm6U",
+          "url": "https://www.youtube.com/watch?v=SBzRm8ycm6U",
+          "title": "BCI Bắc Ninh & Dấu ấn Chuyển đổi số: Học tập hiện đại, Vững bước tương lai!",
+          "client": "BCI Bắc Ninh & Dấu ấn Chuyển đổi số: Học tập hiện đại, Vững bước tương lai!",
+          "description_excerpt": "Chuyển đổi số không chỉ là xu hướng, mà là chìa khóa mở ra tương lai của giáo dục hiện đại! 🎓✨ Trong video này, hãy cùng A.N Production khám phá hành trình đổi mới và công cuộc chuyển đổi số toàn diện tại Trường Cao đẳng Công nghiệp Bắc Ni",
+          "thumbnail": "https://i.ytimg.com/vi/SBzRm8ycm6U/hqdefault.jpg",
+          "author": "A.N Production Việt Nam",
+          "metadata_synced_at": "2026-07-13T16:02:13.582Z"
+        },
+        {
+          "youtube_id": "3nX4647znJo",
+          "url": "https://www.youtube.com/watch?v=3nX4647znJo",
+          "title": "BÊN TRONG TRANG TRẠI GÀ CÔNG NGHỆ CAO HÒA PHÁT | Quy Mô Khép Kín Hiện Đại",
+          "client": "BÊN TRONG TRANG TRẠI GÀ CÔNG NGHỆ CAO HÒA PHÁT",
+          "description_excerpt": "Khám phá toàn cảnh bên trong Trang trại gà công nghệ cao Hòa Phát — một trong những mô hình chăn nuôi gia cầm quy mô và hiện đại hàng đầu hiện nay. Với quy trình vận hành khép kín tự động 100% từ khâu cho ăn, kiểm soát nhiệt độ, ánh sáng ch",
+          "thumbnail": "https://i.ytimg.com/vi/3nX4647znJo/hqdefault.jpg",
+          "author": "A.N Production Việt Nam",
+          "metadata_synced_at": "2026-07-13T16:02:13.590Z"
+        },
+        {
+          "youtube_id": "HOMK825IsFs",
+          "url": "https://www.youtube.com/watch?v=HOMK825IsFs",
+          "title": "HÀNH TRÌNH HẠNH PHÚC VÀ TRƯỞNG THÀNH",
+          "client": "HÀNH TRÌNH HẠNH PHÚC VÀ TRƯỞNG THÀNH",
+          "description_excerpt": "Ngày hôm nay, dưới mái trường Sakura School, những chú chim non đã chính thức cứng cáp đôi cánh để sẵn sàng bay vào bầu trời tri thức mới. 🌸✨ \"Mỗi đứa trẻ là một mầm hoa, và Sakura School chính là khu vườn hạnh phúc nuôi dưỡng những mầm ho",
+          "thumbnail": "https://i.ytimg.com/vi/HOMK825IsFs/hqdefault.jpg",
+          "author": "A.N Production Việt Nam",
+          "metadata_synced_at": "2026-07-13T16:02:13.579Z"
+        },
+        {
+          "youtube_id": "wvjisQdyhYE",
+          "url": "https://www.youtube.com/watch?v=wvjisQdyhYE",
+          "title": "VIETCHEM - PDN",
+          "client": "VIETCHEM",
+          "description_excerpt": "",
+          "thumbnail": "https://i.ytimg.com/vi/wvjisQdyhYE/hqdefault.jpg",
+          "author": "CuXa MYTEAM",
+          "metadata_synced_at": "2026-07-13T16:02:13.567Z"
+        }
       ]
     },
     {
       "name": "TVC",
       "slug": "tvc",
       "videos": [
-        { "youtube_id": "6Kq0bvyxzfQ", "url": "https://www.youtube.com/watch?v=6Kq0bvyxzfQ" },
-        { "youtube_id": "ZBd5uxPBsl0", "url": "https://www.youtube.com/watch?v=ZBd5uxPBsl0" },
-        { "youtube_id": "kjhLSh2iprM", "url": "https://www.youtube.com/watch?v=kjhLSh2iprM" },
-        { "youtube_id": "RvOtbvbA2jI", "url": "https://www.youtube.com/watch?v=RvOtbvbA2jI" }
+        {
+          "youtube_id": "6Kq0bvyxzfQ",
+          "url": "https://www.youtube.com/watch?v=6Kq0bvyxzfQ",
+          "title": "Central Luxury Ha Long Hotel",
+          "client": "Central Luxury Ha Long Hotel",
+          "description_excerpt": "TVC CENTRAL LUXURY HA LONG HOTEL 4K #Cilent: Central Luxury Ha Long #Production: NP Produtions Executive Producer: Năng Phạm D.O.P: Tuấn Cruise Producer: Bích Ngọc Camera Operator: Cao Đạt - Năng Phạm Editor - Colorist: Thanh Tùng Gaffer : ",
+          "thumbnail": "https://i.ytimg.com/vi/6Kq0bvyxzfQ/hqdefault.jpg",
+          "author": "NP Productions",
+          "metadata_synced_at": "2026-07-13T16:02:14.253Z"
+        },
+        {
+          "youtube_id": "ZBd5uxPBsl0",
+          "url": "https://www.youtube.com/watch?v=ZBd5uxPBsl0",
+          "title": "TVC Central Hotel Thanh Hoa",
+          "client": "Central Hotel Thanh Hoa",
+          "description_excerpt": "------------------------------------------- 🎬 NP PRODUCTIONS 🌐 Our Services: Event TVC | Brand TVC | Viral Video | Music Video | Fashion Video | Wedding Film 📳 Mobile: 0962.259.950 ✉️ Mail: info.npproductions@gmail.com #npproductions #we",
+          "thumbnail": "https://i.ytimg.com/vi/ZBd5uxPBsl0/hqdefault.jpg",
+          "author": "NP Productions",
+          "metadata_synced_at": "2026-07-13T16:02:14.199Z"
+        },
+        {
+          "youtube_id": "kjhLSh2iprM",
+          "url": "https://www.youtube.com/watch?v=kjhLSh2iprM",
+          "title": "TVC Viện Thẩm Mỹ Phương Anh",
+          "client": "Viện Thẩm Mỹ Phương Anh",
+          "description_excerpt": "🎬 NP PRODUCTIONS 🌐 Our Services: Event TVC | Brand TVC | Viral Video | Music Video | Fashion Video | Wedding Film 📳 Mobile: 0962.259.950 ✉️ Mail: info.npproductions@gmail.com #npproductions #wedding_film #ceremony #Reporting #viral_video",
+          "thumbnail": "https://i.ytimg.com/vi/kjhLSh2iprM/hqdefault.jpg",
+          "author": "NP Productions",
+          "metadata_synced_at": "2026-07-13T16:02:14.303Z"
+        },
+        {
+          "youtube_id": "RvOtbvbA2jI",
+          "url": "https://www.youtube.com/watch?v=RvOtbvbA2jI",
+          "title": "Sơn JYMEC - Giải Pháp Bảo Vệ Ngôi Nhà Việt",
+          "client": "Sơn JYMEC",
+          "description_excerpt": "Sơn Ngoại Thất Cao Cấp JYMEC Weather Proof: Công nghệ chống thấm vượt trội, thách thức mọi điều kiện thời tiết khắc nghiệt, giữ cho bề mặt tường luôn bền màu và kiên cố theo thời gian. Sơn Nội Thất Dễ Lau Chùi JYMEC: Giải pháp hoàn hảo cho ",
+          "thumbnail": "https://i.ytimg.com/vi/RvOtbvbA2jI/hqdefault.jpg",
+          "author": "JYMEC VIỆT NAM",
+          "metadata_synced_at": "2026-07-13T16:02:14.257Z"
+        }
       ]
     },
     {
       "name": "Music Video",
       "slug": "music-video",
       "videos": [
-        { "youtube_id": "GaHInixgVRE", "url": "https://www.youtube.com/watch?v=GaHInixgVRE" },
-        { "youtube_id": "62AzAswY5-E", "url": "https://www.youtube.com/watch?v=62AzAswY5-E" },
-        { "youtube_id": "t_7uZ_QVHlU", "url": "https://www.youtube.com/watch?v=t_7uZ_QVHlU" },
-        { "youtube_id": "RKe3zgOx2GQ", "url": "https://www.youtube.com/watch?v=RKe3zgOx2GQ" }
+        {
+          "youtube_id": "GaHInixgVRE",
+          "url": "https://www.youtube.com/watch?v=GaHInixgVRE",
+          "title": "BIẾT MÃI LÀ BAO LÂU - PHẠM THU HÀ [LIVE STUDIO SESSION 2023]",
+          "client": "PHẠM THU HÀ",
+          "description_excerpt": "MV Biết mãi là bao lâu của Nhạc sĩ Đỗ Bảo nằm trong chuỗi 20 MV của dự án \"Phạm Thu Hà Live Studio Session'' được Hà và Ekip thu âm trực tiếp tại Studio tháng 12 năm 2022. Xin trân trọng cảm ơn sư yêu mến của khán giả và tâm huyết của toàn ",
+          "thumbnail": "https://i.ytimg.com/vi/GaHInixgVRE/hqdefault.jpg",
+          "author": "Phạm Thu Hà",
+          "metadata_synced_at": "2026-07-13T16:02:14.977Z"
+        },
+        {
+          "youtube_id": "62AzAswY5-E",
+          "url": "https://www.youtube.com/watch?v=62AzAswY5-E",
+          "title": "MỘT NGÀN NỖI ĐAU (NEW VERSION) - VĂN MAI HƯƠNG ft MINH VƯƠNG M4U",
+          "client": "VĂN MAI HƯƠNG ft MINH VƯƠNG M4U",
+          "description_excerpt": "MỘT NGÀN NỖI ĐAU (NEW VERSION) - VĂN MAI HƯƠNG ft MINH VƯƠNG M4U #motngannoidau #vanmaihuong #minhvuongm4u MV Gốc: https://www.youtube.com/watch?v=l0yKQLaNk5g Độc quyền phát hành và truyền thông ACV Entertainment Founder/Music Executive ACV",
+          "thumbnail": "https://i.ytimg.com/vi/62AzAswY5-E/hqdefault.jpg",
+          "author": "Minh Vương M4U",
+          "metadata_synced_at": "2026-07-13T16:02:15.092Z"
+        },
+        {
+          "youtube_id": "t_7uZ_QVHlU",
+          "url": "https://www.youtube.com/watch?v=t_7uZ_QVHlU",
+          "title": "NGƯỜI LẠ TỪNG THƯƠNG - VŨ DUY KHÁNH Cover | Từng là hơi thở giờ là nỗi đau",
+          "client": "VŨ DUY KHÁNH",
+          "description_excerpt": "NGƯỜI LẠ TỪNG THƯƠNG - VŨ DUY KHÁNH Cover | Từng là hơi thở giờ là nỗi đau #nguoilatungthuong #NguoiLaTungThuong #VuDuyKhanh Giới thiệu dự án “Từng thương” là dự án với sự kết hợp của Vũ Duy Khánh và ACV. Dự án bao gồm 5 ca khúc ballad được",
+          "thumbnail": "https://i.ytimg.com/vi/t_7uZ_QVHlU/hqdefault.jpg",
+          "author": "Vũ Duy Khánh Tube",
+          "metadata_synced_at": "2026-07-13T16:02:14.972Z"
+        },
+        {
+          "youtube_id": "RKe3zgOx2GQ",
+          "url": "https://www.youtube.com/watch?v=RKe3zgOx2GQ",
+          "title": "PHỐ MÙA ĐÔNG - PHẠM THU HÀ [LIVE STUDIO SESSION 2023]",
+          "client": "PHẠM THU HÀ",
+          "description_excerpt": "MV Phố Mùa Đông của Nhạc sĩ Bảo Chấn nằm trong chuỗi 20 MV của dự án \"Phạm Thu Hà Live Studio Session'' được Hà và Ekip thu âm trực tiếp tại Studio tháng 12 năm 2022. Xin trân trọng cảm ơn sư yêu mến của khán giả và tâm huyết của toàn bộ ek",
+          "thumbnail": "https://i.ytimg.com/vi/RKe3zgOx2GQ/hqdefault.jpg",
+          "author": "Phạm Thu Hà",
+          "metadata_synced_at": "2026-07-13T16:02:14.891Z"
+        }
       ]
     },
     {
       "name": "Commercial Video",
       "slug": "commercial-video",
       "videos": [
-        { "youtube_id": "ztIP7OvNLjw", "url": "https://www.youtube.com/watch?v=ztIP7OvNLjw" },
-        { "youtube_id": "zrM6K1iJshI", "url": "https://www.youtube.com/watch?v=zrM6K1iJshI" },
-        { "youtube_id": "Vr4JJJ_Low4", "url": "https://www.youtube.com/watch?v=Vr4JJJ_Low4" },
-        { "youtube_id": "KPsy-Zieg5k", "url": "https://www.youtube.com/watch?v=KPsy-Zieg5k" },
-        { "youtube_id": "_da0BfX4-dw", "url": "https://www.youtube.com/watch?v=_da0BfX4-dw" },
-        { "youtube_id": "BGAKX9PFcS4", "url": "https://www.youtube.com/watch?v=BGAKX9PFcS4" }
+        {
+          "youtube_id": "ztIP7OvNLjw",
+          "url": "https://www.youtube.com/watch?v=ztIP7OvNLjw",
+          "title": "THANH HOÁ   BẢN GIAO HƯỞNG CỦA TỰ DO",
+          "client": "THANH HOÁ BẢN GIAO HƯỞNG CỦA TỰ DO",
+          "description_excerpt": "\"Khi tiếng sóng của biển xanh hòa quyện cùng nhịp đập chuyển động không ngừng của những công trình thế kỷ, đó là lúc Bản Giao Hưởng Tự Do được cất lên tại mảnh đất Thanh Hóa.\" Qua lăng kính cinematic chuyên nghiệp của đội ngũ A.n Production",
+          "thumbnail": "https://i.ytimg.com/vi/ztIP7OvNLjw/hqdefault.jpg",
+          "author": "A.N Production Việt Nam",
+          "metadata_synced_at": "2026-07-13T16:02:15.763Z"
+        },
+        {
+          "youtube_id": "zrM6K1iJshI",
+          "url": "https://www.youtube.com/watch?v=zrM6K1iJshI",
+          "title": "TĂNG  BẢO TÀNG ĐẠO MẪU",
+          "client": "TĂNG BẢO TÀNG ĐẠO MẪU",
+          "description_excerpt": "\"Có những giá trị văn hóa không nằm ở những trang sách cũ, mà sống sống động trong không gian, thời gian và tâm thức của người Việt.\" Qua lăng kính cinematic đầy duy mỹ của đội ngũ A.n Production, dự án \"TĂNG - BẢO TÀNG ĐẠO MẪU\" mở ra một h",
+          "thumbnail": "https://i.ytimg.com/vi/zrM6K1iJshI/hqdefault.jpg",
+          "author": "A.N Production Việt Nam",
+          "metadata_synced_at": "2026-07-13T16:02:15.657Z"
+        },
+        {
+          "youtube_id": "Vr4JJJ_Low4",
+          "url": "https://www.youtube.com/watch?v=Vr4JJJ_Low4",
+          "title": "PHIM XUẤT SẮC NHẤT \"STORY OF GEN V\" | Khi Vespa Là Vật Dẫn Câu Chuyện Cuộc Sống",
+          "client": "PHIM XUẤT SẮC NHẤT \"STORY OF GEN V\"",
+          "description_excerpt": "\"Mọi hành trình trong cuộc sống đều cần một người bạn đồng hành, và có những câu chuyện chỉ thực sự bắt đầu khi chúng ta nhấn ga chuyển động.\" Vượt qua hàng loạt tác phẩm tài năng và những màn tranh tài gay cấn, thước phim của A.n Productio",
+          "thumbnail": "https://i.ytimg.com/vi/Vr4JJJ_Low4/hqdefault.jpg",
+          "author": "A.N Production Việt Nam",
+          "metadata_synced_at": "2026-07-13T16:02:15.687Z"
+        },
+        {
+          "youtube_id": "KPsy-Zieg5k",
+          "url": "https://www.youtube.com/watch?v=KPsy-Zieg5k",
+          "title": "Quảng bá du lịch Sầm Sơn",
+          "client": "Quảng bá du lịch Sầm Sơn",
+          "description_excerpt": "Sáng sớm ở Sầm Sơn, mặt trời vừa nhô lên khỏi mặt biển, những con thuyền bắt đầu trở về sau một đêm ra khơi. Tiếng sóng vỗ bờ hoà trong tiếng cười nói của người dân làng chài, tạo nên bản giao hưởng bình yên của vùng biển thân quen. Trên nh",
+          "thumbnail": "https://i.ytimg.com/vi/KPsy-Zieg5k/hqdefault.jpg",
+          "author": "A.N Production Việt Nam",
+          "metadata_synced_at": "2026-07-13T16:02:15.622Z"
+        },
+        {
+          "youtube_id": "_da0BfX4-dw",
+          "url": "https://www.youtube.com/watch?v=_da0BfX4-dw",
+          "title": "Chợ cá Cảng Hới Sầm Sơn",
+          "client": "Chợ cá Cảng Hới Sầm Sơn",
+          "description_excerpt": "CÙNG MỘT NƠI NHƯNG KHÔNG PHẢI AI CŨNG SỐNG CÙNG MỘT NGÀY . Ở đây có tiếng người rôm rả, những bước chân vội vàng , gánh hàng rong, người đẩy xe hàng, có cả \" Xôi Lạc bánh khúc đây \" Sơn hào hải vị đủ cả, loại nào ra loại nấy, có những tay b",
+          "thumbnail": "https://i.ytimg.com/vi/_da0BfX4-dw/hqdefault.jpg",
+          "author": "A.N Production Việt Nam",
+          "metadata_synced_at": "2026-07-13T16:02:15.659Z"
+        },
+        {
+          "youtube_id": "BGAKX9PFcS4",
+          "url": "https://www.youtube.com/watch?v=BGAKX9PFcS4",
+          "title": "HONDA Interview Final",
+          "client": "HONDA",
+          "description_excerpt": "Một dự án sản xuất social instagam cho Honda Việt Nam",
+          "thumbnail": "https://i.ytimg.com/vi/BGAKX9PFcS4/hqdefault.jpg",
+          "author": "A.N Production Việt Nam",
+          "metadata_synced_at": "2026-07-13T16:02:15.843Z"
+        }
       ]
     },
     {
       "name": "Event",
       "slug": "event",
       "videos": [
-        { "youtube_id": "qu6dIMIvNTA", "url": "https://www.youtube.com/watch?v=qu6dIMIvNTA" }
+        {
+          "youtube_id": "qu6dIMIvNTA",
+          "url": "https://www.youtube.com/watch?v=qu6dIMIvNTA",
+          "title": "PhoCoCountDown2024 E4",
+          "client": "PhoCoCountDown2024 E4",
+          "description_excerpt": "",
+          "thumbnail": "https://i.ytimg.com/vi/qu6dIMIvNTA/hqdefault.jpg",
+          "author": "A.N Production Việt Nam",
+          "metadata_synced_at": "2026-07-13T16:02:16.330Z"
+        }
       ]
     }
-  ]
+  ],
+  "metadata_synced_at": "2026-07-13T16:02:16.330Z"
 }

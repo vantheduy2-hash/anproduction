@@ -42,6 +42,48 @@ function categoryLabel(category) {
   return category.slug === 'tvc' ? 'TVC & Commercial' : category.name;
 }
 
+function truncateText(value, maxLength) {
+  const text = String(value || '').replace(/\s+/g, ' ').trim();
+  return text.length <= maxLength ? text : `${text.slice(0, maxLength - 1).trimEnd()}…`;
+}
+
+function escapeHtml(value) {
+  return String(value || '').replace(/[&<>'"]/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character]);
+}
+
+async function hydrateYoutubeMetadata(category) {
+  const cards = [...gridElement.querySelectorAll('.video-card')];
+  const ids = category.videos.map(video => video.youtube_id).join(',');
+  let metadata = [];
+  try {
+    const response = await fetch(`/api/youtube-metadata?ids=${encodeURIComponent(ids)}`);
+    if (!response.ok) throw new Error('Metadata API unavailable');
+    metadata = (await response.json()).videos || [];
+  } catch {
+    metadata = (await Promise.allSettled(category.videos.map(async video => {
+      const watchUrl = `https://www.youtube.com/watch?v=${video.youtube_id}`;
+      const response = await fetch(`https://www.youtube.com/oembed?url=${encodeURIComponent(watchUrl)}&format=json`);
+      if (!response.ok) throw new Error('oEmbed unavailable');
+      const result = await response.json();
+      return { id: video.youtube_id, title: result.title };
+    }))).filter(result => result.status === 'fulfilled').map(result => result.value);
+  }
+
+  const byId = new Map(metadata.map(item => [item.id, item]));
+  cards.forEach((card, index) => {
+    const video = category.videos[index];
+    const live = byId.get(video.youtube_id) || {};
+    const title = live.title || video.title;
+    const client = live.client || video.client;
+    if (title) {
+      card.dataset.title = title;
+      card.querySelector('.card-title').textContent = truncateText(title, 48);
+      card.querySelector('img').alt = `Thumbnail ${title}`;
+    }
+    if (client) card.querySelector('.card-subtitle').textContent = truncateText(`Khách hàng: ${client}`, 44);
+  });
+}
+
 function renderPortfolio() {
   const category = portfolioData.categories[activeCategory];
   tabsElement.innerHTML = portfolioData.categories.map((item, index) => `
@@ -51,16 +93,18 @@ function renderPortfolio() {
   gridElement.innerHTML = category.videos.map((video, index) => {
     const fallback = fallbackImages[index % fallbackImages.length];
     const thumb = `https://i.ytimg.com/vi/${video.youtube_id}/hqdefault.jpg`;
-    const title = category.slug === 'phim-doanh-nghiep' ? 'A.N Production' : category.name;
-    return `<button class="video-card" type="button" data-video="${video.youtube_id}" data-category="${categoryLabel(category)}" data-title="${title}">
-      <img src="${thumb}" data-fallback="${fallback}" alt="Thumbnail ${title}" loading="lazy">
+    const title = video.title || category.name;
+    const subtitle = video.client ? `Khách hàng: ${video.client}` : 'Đang cập nhật thông tin khách hàng';
+    return `<button class="video-card" type="button" data-video="${video.youtube_id}" data-category="${escapeHtml(categoryLabel(category))}" data-title="${escapeHtml(title)}">
+      <img src="${thumb}" data-fallback="${fallback}" alt="Thumbnail ${escapeHtml(title)}" loading="lazy">
       <span class="play" aria-hidden="true">▶</span>
-      <span class="card-copy"><strong>${title}</strong><span>Dự án quay tại Mông Cổ</span></span>
+      <span class="card-copy"><strong class="card-title" title="${escapeHtml(title)}">${escapeHtml(truncateText(title, 48))}</strong><span class="card-subtitle">${escapeHtml(truncateText(subtitle, 44))}</span></span>
     </button>`;
   }).join('');
   gridElement.querySelectorAll('img').forEach(img => img.addEventListener('error', () => {
     if (img.src !== new URL(img.dataset.fallback, location.href).href) img.src = img.dataset.fallback;
   }, { once: true }));
+  hydrateYoutubeMetadata(category);
 }
 
 tabsElement.addEventListener('click', event => {
